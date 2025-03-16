@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background: rgb(0, 185, 80);
+  color: rgba(14, 1, 1, 0.92);
+}

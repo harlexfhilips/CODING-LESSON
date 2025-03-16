@@ -1,0 +1,18 @@
+.semicolond {
+  display: flex;
+  gap: 10pxpx;
+  justify-content: space-between;
+  padding: 20px;
+}
+.right-side {
+  display: flex;
+  gap: 35px;
+}
+
+.right-side .talentpoolbutton {
+  background-color: transparent;
+  color: red;
+  border-radius: 10px;
+  border: 3px solid red;
+  padding: 2 3 px;
+}
