@@ -1,18 +1,35 @@
-.semicolond {
-  display: flex;
-  gap: 10pxpx;
-  justify-content: space-between;
-  padding: 20px;
+.mother-div {
 }
-.right-side {
+nav {
   display: flex;
-  gap: 35px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.top-info {
+  display: flex;
+  gap: 20px;
+}
+.top-info ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  font-family: tahoma;
+  font-weight: bold;
+  cursor: wait;
 }
 
-.right-side .talentpoolbutton {
+.red-button {
   background-color: transparent;
-  color: red;
-  border-radius: 10px;
-  border: 3px solid red;
-  padding: 2 3 px;
+  border: 2px solid red;
+  font-family: tahoma;
+  font weight: bold;
+  border-radius: 5px;
+  color: rgb(255, 0, 0);
+  padding: 10px 40px;
+}
+
+.red-button:hover {
+  background-color: black;
+  color: white;
+  cursor: grabbing;
 }
